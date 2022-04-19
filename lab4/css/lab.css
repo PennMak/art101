@@ -24,10 +24,10 @@ img{
 
 #content{
   background-color: #90ee90;
-  width: 1920px;
+  width: 1000px;
   min-height: 200px;
   padding: 8px;
   margin: 8px;
   border: solid 4px #008000;
-  font-size: 15px;
+  font-size: 20px;
 }
