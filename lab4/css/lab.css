@@ -9,7 +9,7 @@ p{
   text-align:center;
   font-family: "times new roman";
   color: green;
-  tex-indent: 25px;
+  tex-indent: 15px;
 
 
 }
@@ -24,7 +24,7 @@ img{
 
 #content{
   background-color: #90ee90;
-  width: 1900px;
+  width: 1920px;
   min-height: 200px;
   padding: 8px;
   margin: 8px;
