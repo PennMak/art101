@@ -1,11 +1,19 @@
 h1{
   text-align:center;
-  color: green;
+  color: black;
+  font-size: 150%;
+  border: solid 4px #008000;
+}
+
+h2{
+  text-align:center;
+  color: black;
   font-size: 150%;
   border: solid 4px #008000;
 }
 
 p{
+  text-align:left;
   font-family: "times new roman";
   color: green;
   tex-indent: 15px;
