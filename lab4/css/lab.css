@@ -9,7 +9,7 @@ p{
   text-align:center;
   font-family: "times new roman";
   color: green;
-  tex-indent: 15px;
+  tex-indent: 25px;
 
 
 }
@@ -18,14 +18,14 @@ img{
   display: block;
   margin-left:auto;
   margin-right:auto;
-  width: 300px;
+  width: 500px;
   border: solid 4px #008000;
 }
 
 #content{
   background-color: #90ee90;
   width: 1900px;
-  min-height:150px;
+  min-height: 200px;
   padding: 8px;
   margin: 8px;
   border: solid 4px #008000;
