@@ -1,3 +1,19 @@
+h1{
+  text-align:center;
+  color: green;
+  font-size: 150%;
+  border: solid 4px #008000;
+}
+
+p{
+  text-align:center;
+  font-family: "times new roman";
+  color: green;
+  tex-indent: 15px;
+
+
+}
+
 img{
   display: block;
   margin-left:auto;
