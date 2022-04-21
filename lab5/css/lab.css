@@ -1,20 +1,19 @@
 h1{
-  text-align:right;
+  text-align:left;
   color: black;
   font-size: 150%;
-  border: solid 4px #008000;
+  border: solid 4px #000000;
 }
 
 h2{
-  text-align:right;
+  text-align:left;
   color: black;
   font-size: 150%;
-  border: solid 4px #008000;
+  border: solid 4px #000000;
 }
 
 p{
-  text-align:right;
-  font-family: "times new roman";
+  text-align:left;
   color: black;
   tex-indent: 15px;
   font-size:25px;
@@ -36,6 +35,13 @@ img{
   min-height: 200px;
   padding: 8px;
   margin: 8px;
-  border: solid 4px #008000;
+  border: solid 4px #000000;
   font-size: 20px;
+}
+
+ script{
+  text-align:left;
+  color: black;
+  tex-indent: 15px;
+  font-size:25px;
 }
