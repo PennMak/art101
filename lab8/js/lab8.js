@@ -6,13 +6,13 @@
 
  // sortUserName - a function that takes user input and sorts the letters
  // of their name
-function isOdd(x){
-  return (x % 1 == 0);
+function isEven(x){
+  return (x % 2 == 0);
 }
 
 // test function
-console.log("Is 1 even? ", isOdd(1));
-console.log("Is 2 even? ", isOdd(2));
+console.log("Is 1 even? ", isEven(1));
+console.log("Is 2 even? ", isEven(2));
 
 array = [522, 54, 510, 72, 331, 61, 1224]
 console.log("My array", array);
