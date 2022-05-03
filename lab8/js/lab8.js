@@ -24,6 +24,3 @@ var result = array.map(function(x){
   return x ** 0.5;
 })
 console.log("squareroot of array:", result);
-
-var outputEl = document.getElementById("output");
-outputEl.innerHTML = mapResults; // put your results here
