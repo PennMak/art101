@@ -7,7 +7,7 @@
  // sortUserName - a function that takes user input and sorts the letters
  // of their name
 function isOdd(x){
-  return (x % 1 == 0);
+  return (x % 2 != 0);
 }
 
 // test function
