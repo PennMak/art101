@@ -7,7 +7,7 @@
  // sortUserName - a function that takes user input and sorts the letters
  // of their name
 function isOdd(x){
-  return (x % 2 == 0);
+  return (x % 1 == 0);
 }
 
 // test function
@@ -17,7 +17,7 @@ console.log("Is 2 odd? ", isOdd(2));
 array = [522, 54, 510, 72, 331, 61, 1224]
 console.log("My array", array);
 
-var result = array.map(isEven);
+var result = array.map(isOdd);
 console.log("Test of evenness of array:", result);
 
 var result = array.map(function(x){
