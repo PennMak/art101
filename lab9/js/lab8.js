@@ -26,4 +26,5 @@ var result = array.map(function(x){
 console.log("squareroot of array:", result);
 
 var outputEl = document.getElementById("output");
+var new1El = document.createElement("p")
 outputEl.innerHTML = mapResults; // put your results here
