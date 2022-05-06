@@ -27,4 +27,8 @@ console.log("squareroot of array:", result);
 
 var outputEl = document.getElementById("output");
 var new1El = document.createElement("p")
-outputEl.innerHTML = mapResults; // put your results here
+new1El.innerHTML = "mapresults.";
+var new2El = document.createElement("p")
+new2El.innerHTML = "mapoutput.";
+outputEl.appendChind(new1E1);
+outputEl.appendChind(new2E1);
