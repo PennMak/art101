@@ -16,9 +16,7 @@ var new2El = document.createElement("p")
 new2El.innerHTML = "mapoutput.";
 outputEl.appendChind(new1El);
 outputEl.appendChind(new2El);
-
-//document.getElementById("chall").style.color = '#FF1493';;
-//document.getElementById("res").style.color = '#FF1493';;
-//document.getElementById("prob").style.color = '15pt';;
-
+document.getElementById("chall").style.color = '#FF1493';;
+document.getElementById("res").style.color = '#FF1493';;
+document.getElementById("prob").style.color = '15pt';;
 new2El.style.marginLeft = "60px";
