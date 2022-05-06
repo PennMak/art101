@@ -1,10 +1,10 @@
 /*
  * Author: Tszho Mak <tsmak@ucsc.edu>
- * Created: 4/25/2021
+ * Created: 5/6/2021
  * License: Public Domain
  */
 
- // sortUserName - a function that takes user input and sorts the letters
+ // sortUserName - a clickable link that directly showing lab9 index.html
  // of their name
 
 // test function
