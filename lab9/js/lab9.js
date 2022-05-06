@@ -30,5 +30,5 @@ var new1El = document.createElement("p")
 new1El.innerHTML = "mapresults.";
 var new2El = document.createElement("p")
 new2El.innerHTML = "mapoutput.";
-outputEl.appendChind(new1E1);
-outputEl.appendChind(new2E1);
+outputEl.appendChind(new1El);
+outputEl.appendChind(new2El);
