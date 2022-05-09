@@ -41,8 +41,10 @@ img{
 
 label{
   font-size:25px;
+  border: solid 4px #000000;
 }
 
 button{
   font-size:25px;
+  border: solid 4px #000000;'
 }
