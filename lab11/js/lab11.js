@@ -29,19 +29,6 @@ function init(){
       $(this).parent().toggleClass('special')
     });
 
-    var dontpressme = $('<button class="button">Do Not Press Me</button>');
-    $('#output').append(dontpressme);
-    dontpressme.on('click',function(){
-      isaiddonot.addClass('special');
-      donotpressme.removeClass('special')
-    });
-
-    var isaiddonot = $('<button class="button">I said do not!</button>');
-    $('#output').append(isaiddonot);
-    isaiddonot.on('click',function(){
-      donotpressme.addClass('special');
-      isaiddonot.removeClass('special')
-    });
 
 
   });
