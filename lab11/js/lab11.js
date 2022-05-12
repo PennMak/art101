@@ -28,8 +28,5 @@ function init(){
     res.on('click',function(){
       $(this).parent().toggleClass('special')
     });
-
-
-
   });
 }
