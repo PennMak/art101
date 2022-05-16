@@ -1,25 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title>Lab 9 - Anon Functions and Callbacks</title>
+  <head>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+ <title>Lab 13 - Libraries & jQuery</title>
  <link rel="stylesheet" type="text/css" href="../css/site.css">
  <link rel="stylesheet" type="text/css" href="css/lab.css">
- <script src="js/lab9.js" defer></script>
+ <script src="js/lab11.js" defer></script>
 </head>
-<body>
+<body onload = init()>
   <div id="content">
-	<h1>Lab 9 - Anon Functions and Callbacks</h1>
+	<h1>Lab 13 - Libraries & jQuery</h1>
 	<p>Working with your partner, experiment with DOM manipulation.
-		<h2>Problem</h2>
-		<p>The appendChind is not working at first, we spend some time to figure it out how to fix it</p>
-    <h2>Challenges</h2>
-    <p id = "prob">The new code is really how level to me, I could not really follow it, It takes time to study about it  </p>
-    <h2>Results</h2>
+
+    <div id='problem'>
+    <h2 id = "pro">Problem</h2>
+		<p>The new method, which is jQuery is not working at first and I do not know how to fix it</p>
+    </div>
+
+    <div id='challenges'>
+    <h2 id = "cha">Challenges</h2>
+    <p>jQuery is really complicated when I first trying to operate it. It is really hard to connect the js and html when I first doing it.  </p>
+    </div>
+
+    <div id='results'>
+    <h2 id = "res">Results</h2>
 		<p>Take a look of what I have learned:</p>
-    <a href="js/lab9.js">link to my JavaScriptS file</a>
-
-  <div id="output"></div>
+    </div>
 
 
+
+        Where should we stop? <input type="number" min=0 max="1000" id="max"><br>
+        Which factors should print what<br>
+        <table>
+          <tr>
+            <th>Factor</th>
+            <th>Prints what?</th>
+          </tr>
+
+          <tr>
+            <td><input type="number" min=0 max="23" id="num0"></td>
+            <td><input type="text" id="text0"> </td>
+          </tr>
+
+          <tr>
+            <td><input type="number" min=0 max="23" id="num1"></td>
+            <td><input type="text" id="text1"> </td>
+          </tr>
+
+          <tr>
+            <td><input type="number" min=0 max="23" id="num2"></td>
+            <td><input type="text" id="text2"> </td>
+          </tr>
+
+          <tr>
+            <td><input type="number" min=0 max="23" id="num3"></td>
+            <td><input type="text" id="text3"> </td>
+          </tr>
+        </table>
+        <button id="submit">Run</button>
+      </div>
+      <h3>Output</h3>
+      <div id="output"></div>
+    </div>
+      <div class="linkbox">
+        <a class="homelink" href="../index.html">&lt;&lt; Back home</a>
+        <a class="sourcelink" href="js/lab13.js" target="source">JavaScript Source &gt;&gt;</a>
+      </div>
 </body>
 </html>
