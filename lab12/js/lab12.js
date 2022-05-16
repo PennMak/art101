@@ -12,7 +12,7 @@
 function sortingHat(str){
   len = str.length;
   mod = len % 4;
-  if(mod == .){
+  if(mod == 0){
     return "Gryffindor"
   }
   else if (mod == 1){
