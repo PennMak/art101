@@ -13,16 +13,16 @@ function sortingHat(str){
   len = str.length;
   mod = len % 4;
   if(mod == 0){
-    return "Gryffindor"
+    return "Line 1"
   }
   else if (mod == 1){
-    return "Ravenclaw"
+    return "Line 2"
   }
   else if (mod == 2){
-    return "Slytherin"
+    return "Line 3"
   }
   else if (mod == 3){
-    return "Hufflepuff"
+    return "Line 4"
   }
 }
 
@@ -30,6 +30,6 @@ var myButton = document.getElementById("button");
 myButton.addEventListener("click", function(){
   var name = document.getElementById("input").value;
   var house = sortingHat(name);
-  newText = "<p>The Sorting Hat has sorted you into " + house + "</p>";
+  newText = "<p>You are in " + house + "</p>";
   document.getElementById("output").innerHTML = newText;
 })
