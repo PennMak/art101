@@ -24,3 +24,6 @@ function fizzBuzzBoom(maxNums, factorObj){
     outputToPage(num.toString() + outputStr)
   }
 }
+
+oneLongString += num + " Fizz!<br>";
+$("#output").html(oneLongString);
