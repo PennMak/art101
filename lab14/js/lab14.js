@@ -43,11 +43,11 @@ document.getElementById("submit").addEventListener("click",function(){
     return;
   }
 
-  console.log("Error checks passed.");
-  outputEl.innerHTML = "";
-  console.log("Running fizzBuzz..");
-  fizzBuzzBoom(max, factorObj);
-  document.writeln(foo());
-  console.log("Done running FizzBuzz.");
-  outputEl.classList.add("cols");
+  //console.log("Error checks passed.");
+  //outputEl.innerHTML = "";
+  //console.log("Running fizzBuzz..");
+  //fizzBuzzBoom(max, factorObj);
+  //document.writeln(foo());
+  //console.log("Done running FizzBuzz.");
+  //outputEl.classList.add("cols");
 })
