@@ -9,17 +9,7 @@
 
 // test function
 
-function getFactorObj(){
-  var factorObj = {};
-  for (var factor =0; factor<maxFactors; factor++){
-    numId = "num" + factor;
-    textId = "text" + factor;
-    numValue = document.getElementById(numId).value;
-    textValue = document.getElementById(textId).value;
-    debugger;
-    console.log(factor + "num:", numValue, "text":", textValue)
-    }
-}
+
 
 function fizzBuzzBoom(maxNums, factorObj){
   for (var num=0; num<maxNums; num++){
