@@ -42,6 +42,7 @@ document.getElementById("submit").addEventListener("click",function(){
     reportError("You must provide at least one factor and text");
     return;
   }
+
   console.log("Error checks passed.");
   outputEl.innerHTML = "";
   console.log("Running fizzBuzz..");
@@ -50,6 +51,3 @@ document.getElementById("submit").addEventListener("click",function(){
   console.log("Done running FizzBuzz.");
   outputEl.classList.add("cols");
 })
-
-oneLongString += num + " Fizz!<br>";
-$("#output").html(oneLongString);
