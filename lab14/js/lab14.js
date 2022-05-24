@@ -17,7 +17,7 @@ function getFactorObj(){
     numValue = document.getElementById(numId).value;
     textValue = document.getElementById(textId).value;
     debugger;
-    console.log(factor + ") num:", numValue, "text":", textValue)
+    console.log(factor + "num:", numValue, "text":", textValue)
     }
 }
 
