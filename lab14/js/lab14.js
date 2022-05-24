@@ -4,7 +4,7 @@
  * License: Public Domain
  */
 
- // sortUserName - a clickable link that directly showing lab9 index.html
+ // sortUserName - a clickable link that directly showing lab14 index.html
  // of their name
 
 // test function
